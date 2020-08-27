@@ -48,7 +48,7 @@ This assumes you know [how to build a project in IntelliJ](building-a-scala-proj
     
     class CubeCalculatorTest extends FunSuite {
       test("CubeCalculator.cube") {
-        assert(CubeCalculator.cube(3) === 27)
+        assert(cubeCalculator.cube(3) === 27)
       }
     }
     ```
